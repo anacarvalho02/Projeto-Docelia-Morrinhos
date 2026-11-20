@@ -309,7 +309,7 @@ h2 span {
 
 .product-image {
   width: 100%;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 5 / 6;
   overflow: hidden;
   display: flex;
   align-items: center;
