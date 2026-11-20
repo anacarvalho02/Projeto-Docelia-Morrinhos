@@ -1,4 +1,4 @@
-🍬 Docelia — Catálogo Digital
+🍬 Docelia - Catálogo Digital
 
 Projeto de desenvolvimento de um catálogo digital para a Docelia, criado para apresentar seus produtos de forma moderna, organizada e atrativa.
 
