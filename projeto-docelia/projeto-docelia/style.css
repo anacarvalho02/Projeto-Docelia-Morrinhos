@@ -1,3 +1,4 @@
+
 /* CONFIGURAÇÕES GERAIS */
 
 :root {
@@ -299,6 +300,7 @@ h2 span {
   flex-direction: column;
   transition: transform 0.3s, box-shadow 0.3s;
 }
+
 .product-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 15px 35px rgba(67, 42, 75, 0.08);
@@ -306,7 +308,7 @@ h2 span {
 
 .product-image {
   width: 100%;
-  aspect-ratio: 1104 / 1424;
+  aspect-ratio: 3 / 4;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -319,6 +321,16 @@ h2 span {
   object-fit: cover;
   object-position: center;
   display: block;
+}
+
+/* IMAGENS PROMOCIONAIS */
+
+.product-image--promo {
+  background: #fffaf2;
+}
+
+.product-image--promo img {
+  object-fit: contain;
 }
 
 .coming-soon-tag {
@@ -710,6 +722,10 @@ h2 span {
   .products-grid {
     grid-template-columns: 1fr;
     gap: 22px;
+  }
+
+  .product-image {
+    height: 340px;
   }
 
   .about-section {
