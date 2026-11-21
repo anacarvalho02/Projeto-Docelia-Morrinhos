@@ -341,6 +341,7 @@ h2 span {
 
 .product-image--fill img {
   object-fit: cover;
+  object-position: center top;
 }
 
 .coming-soon-tag {
