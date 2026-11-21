@@ -753,6 +753,10 @@ h2 span {
     height: 340px;
   }
 
+  .product-card:first-child .product-image {
+    height: auto;
+  }
+
   .product-image--fill {
     height: auto;
   }
