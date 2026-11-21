@@ -344,6 +344,20 @@ h2 span {
   object-position: center top;
 }
 
+/* CARD DAS CARTINHAS POKÉMON (SEM O ENDEREÇO) */
+
+.product-image--cartinhas {
+  background: #f8f7fc;
+}
+
+.product-image--cartinhas img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 0.92;
+  object-fit: cover;
+  object-position: center top;
+}
+
 .coming-soon-tag {
   position: absolute;
   top: 16px;
